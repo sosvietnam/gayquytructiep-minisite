@@ -49,3 +49,10 @@ a.back-to-top {
 a:hover.back-to-top {
 	background: var(--color-brand-blue) url(/img/up-arrowbl.png) no-repeat center 43%;
 }
+
+.container-fluid .row,
+.navbar .container-fluid {
+	max-width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+}

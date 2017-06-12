@@ -1,11 +1,12 @@
 
-.container .jumbotron {
+.container .jumbotron,
+.container-fluid .jumbotron {
 	background-color: var(--color-white);
 	padding: 30px;
 	padding-right: 0;
 }
 
-.container .jumbotron h3 {
+.jumbotron h3 {
 	margin-top: 0;
 }
 
@@ -51,10 +52,13 @@
 }
 
 @media screen and (max-width: 768px) {
-	.container .jumbotron {
+	.container .jumbotron,
+	.container-fluid .jumbotron {
 		background-color: var(--color-white);
 		padding-left: 0;
 		padding-right: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	.form-control {
@@ -72,10 +76,5 @@
 	.contact-below-form-inner {
 		margin-bottom: 20px;
 		padding-left: 90px;
-	}
-
-	.container .jumbotron {
-		margin-bottom: 0;
-		padding-bottom: 0;
 	}
 }
