@@ -1,0 +1,51 @@
+a {
+	color: var(--color-brand-blue);
+	font-weight: 300;
+}
+
+.body {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	padding-top: 60px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+section {
+	padding: 40px 0;
+}
+
+section:nth-child(2n+1) {
+	background-color: var(--color-light-blue);
+}
+
+.social {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.social a {
+	margin: 0 30px;
+}
+
+.footer {
+	padding: 20px 0;
+}
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 99;
+	right: 20px;
+	bottom: 20px;
+	background: var(--color-brand-blue) url(/img/up-arrow.png) no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+a:hover.back-to-top {
+	background: var(--color-brand-blue) url(/img/up-arrowbl.png) no-repeat center 43%;
+}

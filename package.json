@@ -1,0 +1,34 @@
+{
+  "name": "gayquytructiep-minisite",
+  "version": "1.0.0",
+  "description": "Gay Quy Truc Tiep minisite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosvietnam/gayquytructiep-minisite.git"
+  },
+  "author": "Thanh Tran <trongthanh-AT-gmail-DOT-com> (http://naustud.io)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sosvietnam/gayquytructiep-minisite/issues"
+  },
+  "homepage": "https://github.com/sosvietnam/gayquytructiep-minisite#readme",
+  "browserslist": [
+    "last 2 version",
+    "ie >= 10",
+    "Android >=4.0"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "postcss public/css/main.cssnext.css --config postcss.config.json -o public/css/main.css",
+    "start": "npm run styles && chokidar 'public/css/**/*.css' -c 'npm run styles'"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "chokidar-cli": "^1.2.0",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0",
+    "postcss-url": "^7.0.0"
+  }
+}

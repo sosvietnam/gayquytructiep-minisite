@@ -1,0 +1,21 @@
+.sponsor-child h2 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.sponsor-child p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.sponsor-child-submit {
+	font-size: 17px;
+	white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+	.sponsor-child-video {
+		margin-bottom: 20px;
+	}
+}

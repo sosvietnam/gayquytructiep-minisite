@@ -1,0 +1,10 @@
+/*stylelint-disable color-no-hex*/
+
+:root {
+	--color-white: #fff;
+	--color-black: #000;
+	--color-gray: #8f8f8f;
+	--color-light-blue: #f0f9fd;
+	--color-brand-blue: #01a6ea;
+}
+
