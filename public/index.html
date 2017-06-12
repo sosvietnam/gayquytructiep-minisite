@@ -34,7 +34,12 @@
 	</style>
 </head>
 
-<body class="body" mv-app="gayquytructiep" mv-storage="https://github.com/sosvietnam/gayquytructiep-minisite/blob/mavo/mavo-data.json" mv-plugins="tinymce">
+<body class="body" mv-app="gayquytructiep"
+	mv-plugins="tinymce"
+	mv-expressions="{{ }}"
+	mv-storage="https://github.com/sosvietnam/gayquytructiep-minisite/blob/master/mavo-data.json"
+	mv-source="https://raw.githubusercontent.com/sosvietnam/gayquytructiep-minisite/master/mavo-data.json"
+>
 	<nav class="navbar navbar-fixed-top">
 		<div class="mv-ui mv-bar mv-fixed"></div>
 		<div class="container-fluid js-navbar-container">
@@ -92,7 +97,7 @@
 				</div>
 				<div class="col-md-7 animated fadeInRight" id="donate">
 					<div class="jumbotron">
-						<h3>Bỏ vào "Lọ đựng tình thương" chỉ 300.000đ/tháng để thay đổi tương lai của một đứa trẻ. </h3>
+						<h3 property="jaroflove-cta">Bỏ vào "Lọ đựng tình thương" chỉ 300.000đ/tháng để thay đổi tương lai của một đứa trẻ.</h3>
 						<p class="form-header-text">Hãy điền các thông tin dưới đây để tham gia</p>
 						<form id="contact-form" action="https://script.google.com/macros/s/AKfycbySydaat2gvvqufr59LrIcG6Q3Jclbnr42x946cU9iSCmEd9HQ/exec"
 						 method="GET">
